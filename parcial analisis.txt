@@ -1,0 +1,25 @@
+
+Descripción del problema:
+crear un algoritmo que simule el proceso de filtrado de señales utilizando la distribución normal, específicamente la función de densidad de probabilidad (fdp) de la campana de Gauss. Este algoritmo recibirá como entrada la frecuencia de una señal y determinará si esta pasa o es bloqueada según la probabilidad acumulada de la distribución normal. Si la probabilidad acumulada es mayor al 30%, el algoritmo considerará que la señal pasa el filtro; de lo contrario, será bloqueada.
+
+Entrada:
+-La entrada del algoritmo es la frecuencia de la señal.
+
+Salida:
+-La salida esperada del algoritmo es un mensaje indicando si la señal pasa o es bloqueada por el filtro.
+
+Otras variables:
+
+-Media (𝜇) de la distribución normal: 1000 Hz.
+Desviación estándar (𝜎) de la distribución normal: 300 Hz.
+
+Proceso:
+-Se define la función de densidad de probabilidad (fdp) de la campana de Gauss.
+-Se calcula la probabilidad acumulada sumando la fdp para todas las frecuencias desde cero hasta la frecuencia de la señal de entrada.
+-Se compara la probabilidad acumulada con el umbral del 30%.
+-Se muestra un mensaje indicando si la señal pasa o es bloqueada por el filtro.
+
+Restricciones:
+
+-Se recomienda utilizar un paso de 1 Hz para las iteraciones.
+-Se asume que la frecuencia de la señal proporcionada es un valor válido y no negativo.
