@@ -15,9 +15,9 @@ Desviación estándar (𝜎) de la distribución normal: 300 Hz.
 
 Proceso:
 -Se define la función de densidad de probabilidad (fdp) de la campana de Gauss.
--Se calcula la probabilidad acumulada sumando la fdp para todas las frecuencias desde cero hasta la frecuencia de la señal de entrada.
+-luego calcula la probabilidad acumulada sumando la fdp para todas las frecuencias desde cero hasta la frecuencia de la señal de entrada.
 -Se compara la probabilidad acumulada con el umbral del 30%.
--Se muestra un mensaje indicando si la señal pasa o es bloqueada por el filtro.
+-luego se  muestra un mensaje indicando si la señal pasa o es bloqueada por el filtro.
 
 Restricciones:
 
