@@ -5,7 +5,7 @@ Start
 //declaracion de variables
     declare constant = MEDIA <- 1000, DESVIACION_ESTANDAR <- 300, UMBRAL <- 0.3
     declare real = frecuencia_señal
-    
+// proceso :  
     display"Ingrese la frecuencia de la señal: "
     input frecuencia_señal
 
