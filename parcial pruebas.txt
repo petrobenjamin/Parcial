@@ -8,7 +8,7 @@ Frecuencia de la señal: x
 Media: 1000
 Desviación estándar: 300
 Umbral: 0.3
-x = 1200 hz
+x = 1500 hz
 Resultado esperado: La señal pasa el filtro.
 
 Prueba 2:
@@ -26,5 +26,5 @@ Frecuencia de la señal: x
 Media: 1000
 Desviación estándar: 300
 Umbral: 0.3
-x = 1000
+x = 1230
 Resultado esperado: La señal pasa el filtro.
