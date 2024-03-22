@@ -1,5 +1,5 @@
 • Pregunta: ¿para qué valor de frecuencia la señal deja de ser bloqueada?
-el valor donde la frecuencia de la señal deja de ser bloqueada es 843
+el valor donde la frecuencia de la señal deja de ser bloqueada es 843 hz
 
 
 Prueba 1:
@@ -26,5 +26,5 @@ Frecuencia de la señal: x
 Media: 1000
 Desviación estándar: 300
 Umbral: 0.3
-x = 1230
+x = 1230 hz
 Resultado esperado: La señal pasa el filtro.
