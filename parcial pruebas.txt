@@ -1,3 +1,6 @@
+• Pregunta: ¿para qué valor de frecuencia la señal deja de ser bloqueada?
+el valor donde la frecuencia de la señal deja de ser bloqueada es 843
+
 
 Prueba 1:
 
