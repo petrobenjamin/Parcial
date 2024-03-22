@@ -1,5 +1,5 @@
 program para_simular_filtrado_de_las_señales
-// programa para simular el filtrado de las señales de acuerdo ala funcion de densidad de probabilidad
+// programa para simular el filtrado de las señales si pasa o no pasa por el filtro de acuerdo ala funcion de densidad de probabilidad
 
 Start
 //declaracion de variables
